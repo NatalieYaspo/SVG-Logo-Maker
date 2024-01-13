@@ -42,7 +42,7 @@ function writeToFile(data) { //May need to change DATA to something else?
 // Function to initialize app
 function init() {
     inquirer.prompt(Questions).then((responses) => {
-        return writeToFile(generateMarkdown({...responses})); //NEED TO CHANGE GENERATE MARKDOWN
+        return writeToFile(generateSVG({...responses}));
     });
 }
 
