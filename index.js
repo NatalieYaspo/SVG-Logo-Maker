@@ -55,4 +55,4 @@ function init() {
 // Function call to initialize app
 init();
 
-exports.module = logoChars;
+module.exports = logoChars;
