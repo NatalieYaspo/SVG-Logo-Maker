@@ -1,4 +1,4 @@
-const logoChars = require('../lib/generateSVG.js');
+const logoChars = require('../index');
 
 describe('generateSVG', () => {
     describe('logoChars', () => {

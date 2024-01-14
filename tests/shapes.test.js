@@ -1,4 +1,4 @@
-const Shape = require('../lib/shapes.js')
+const Shape = require('../lib/shapes')
 
 // describe('renderShape', () => {
 //     describe('testShape', () => {
@@ -9,4 +9,6 @@ const Shape = require('../lib/shapes.js')
 //         });
 //     });
 // });
+
+describe('')
 
