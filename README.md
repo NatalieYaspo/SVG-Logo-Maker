@@ -39,7 +39,7 @@ Developer: Natalie Yaspo
 
 Collaborations: 
 
-Tutorials:
+Tutorials: B., Zachary "SVG Logo Maker - M10 RUT Bootcamp" Zachary B. YouTube 3 Apr 2023
 
 ## License
 

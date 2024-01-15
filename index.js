@@ -1,7 +1,15 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const { Shapes, Circle, Square, Triangle } = require('./shapes');
+const { Shapes, Circle, Square, Triangle } = require('./lib/shapes');
 const generateSVG = require('./lib/generateSVG');
+
+
+// checks to see if there are more than 3 characters entered
+// const logoCharsLength = async (input) => {
+//     if (input > 3) {
+//         throw Error('Only 3 characters allowed for logo.');
+//     }
+// }
 
 //Question prompts to generate logo
 const Questions = [
@@ -9,6 +17,7 @@ const Questions = [
         type: 'input',
         message: 'Please enter up to (3) characters for your logo:',
         name: 'logoChars',
+        // validate: logoCharsLength
     },
     {
       type: 'input',
@@ -30,7 +39,7 @@ const Questions = [
 
 // Function to write SVG file
 function writeToFile(data) { //May need to change DATA to something else?
-    fs.writeFile(`./output/${logoChars}.svg`, data, (err) =>
+    fs.writeFile(`./newlogo.svg`, data, (err) =>
     err ? console.log(err) : console.log('Your SVG has been created!')
 );
 }
@@ -44,5 +53,3 @@ function init() {
 
 // Function call to initialize app
 init();
-
-module.exports = logoChars;
