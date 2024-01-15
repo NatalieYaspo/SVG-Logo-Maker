@@ -1,17 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const Shapes = require('./lib/shapes');
+const { Shapes, Circle, Square, Triangle } = require('./shapes');
 const generateSVG = require('./lib/generateSVG');
-
-
-class logoChars {
-    constructor(logoChars) {
-        //checks to see if there are more than 3 characters entered
-        if (logoChars.length > 3) {
-            throw new Error('Only 3 characters allowed for logo.');
-        }
-    }
-}
 
 //Question prompts to generate logo
 const Questions = [
