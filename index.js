@@ -17,6 +17,7 @@ const Questions = [
         type: 'input',
         message: 'Please enter up to (3) characters for your logo:',
         name: 'logoChars',
+        // validate: logoCharsLength,
         // validate: (logoChars) => {
         //     if(logoChars.length > 3) {
         //         throw new Error('Please only enter up to 3 characters');
