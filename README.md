@@ -45,7 +45,7 @@ Once all input is received, a logo.svg file is created and it is noted in the co
 The logo can be opened in a browser meeting the criteria entered and is displayed as a 300x200 pixel image.
 ![image](https://github.com/NatalieYaspo/SVG-Logo-Maker/assets/149972640/d7690537-b157-4428-b182-9a565792d97b)
 
-Link to demonstration video:
+Link to demonstration video: https://drive.google.com/file/d/1oY05O0VGTYNXgANr1jkg-Hx_IlJOI12k/view?usp=sharing
 
 ## Credits
 
