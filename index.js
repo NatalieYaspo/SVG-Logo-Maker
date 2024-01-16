@@ -60,3 +60,5 @@ function init() {
 
 // Function call to initialize app
 init();
+
+// --detectOpenHandles do I need to add that back to test: jest?
