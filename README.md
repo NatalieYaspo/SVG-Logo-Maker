@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a command link application that will generage a .svg logo based on user inputs.
+This is a command line application that will generate a .svg logo based on user inputs.
 
 ## Table of Contents
 
@@ -14,13 +14,13 @@ This is a command link application that will generage a .svg logo based on user 
 
 ## Installation
 
-User should clone the repo: 
+User should clone the repo: https://github.com/NatalieYaspo/SVG-Logo-Maker
 
-Then the user should open the terminal in VS Code and run a note install to receive all of the dependencies for this application.
+Then the user should open the terminal in VS Code and run "npm install" in the terminal to receive all of the dependencies for this application.
 
 ## Usage
 
-The user will run node index.js in their terminal and answer the questions.
+The user will run "node index.js" in their terminal and answer the questions.
 When prompted for text, the user can enter up to three characters.
 
 When prompted for a color, the user can enter a color keyword or a hexadecimal number.
@@ -40,7 +40,7 @@ Developer: Natalie Yaspo
 Collaborations: Le, Roger via Zoom on 16 Jan 2024
 Peters, Sasha via Zoom on 16 Jan 2024
 
-Tutorials: B., Zachary "SVG Logo Maker - M10 RUT Bootcamp" Zachary B. YouTube 3 Apr 2023
+Tutorials: B., Zachary. "SVG Logo Maker - M10 RUT Bootcamp" YourTube uploaded by Zachary B., 3 Apr 2023, https://www.youtube.com/watch?v=zh9CsKqEhOM
 
 ## License
 
@@ -48,4 +48,6 @@ N/A
 
 ## Tests
 
-via Jest: 
+Jest tests:
+generateSVG.text.js
+shapes.test.js
