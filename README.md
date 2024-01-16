@@ -49,10 +49,12 @@ Link to demonstration video:
 
 Developer: Natalie Yaspo
 
-Collaborations: Le, Roger via Zoom on 16 Jan 2024
-Peters, Sasha via Zoom on 16 Jan 2024
+Collaborations:
+- Le, Roger via Zoom on 16 Jan 2024
+- Peters, Sasha via Zoom on 16 Jan 2024
 
-Tutorials: B., Zachary. "SVG Logo Maker - M10 RUT Bootcamp" YourTube uploaded by Zachary B., 3 Apr 2023, https://www.youtube.com/watch?v=zh9CsKqEhOM
+Tutorials: 
+- B., Zachary. "SVG Logo Maker - M10 RUT Bootcamp" YourTube uploaded by Zachary B., 3 Apr 2023, https://www.youtube.com/watch?v=zh9CsKqEhOM
 
 ## License
 
@@ -61,5 +63,5 @@ N/A
 ## Tests
 
 Jest tests:
-generateSVG.text.js
-shapes.test.js
+- generateSVG.text.js
+- shapes.test.js
