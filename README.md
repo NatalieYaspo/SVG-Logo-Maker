@@ -37,7 +37,8 @@ Link to demonstration video:
 
 Developer: Natalie Yaspo
 
-Collaborations: 
+Collaborations: Le, Roger via Zoom on 16 Jan 2024
+Peters, Sasha via Zoom on 16 Jan 2024
 
 Tutorials: B., Zachary "SVG Logo Maker - M10 RUT Bootcamp" Zachary B. YouTube 3 Apr 2023
 
