@@ -22,9 +22,11 @@ Then the user should open the terminal in VS Code and run "npm install" in the t
 ## Usage
 
 The user will run "node index.js" in their terminal and answer the questions.
+
 ![image](https://github.com/NatalieYaspo/SVG-Logo-Maker/assets/149972640/2a299013-1c1b-42e5-97b4-db366b033838)
 
 When prompted for text, the user can enter up to three characters.
+
 ![image](https://github.com/NatalieYaspo/SVG-Logo-Maker/assets/149972640/ba9c9e7e-12ee-4b4c-99f4-97dd206950ad)
 
 When prompted for a color, the user can enter a color keyword or a hexadecimal number.
@@ -63,5 +65,5 @@ N/A
 ## Tests
 
 Jest tests:
-- generateSVG.text.js
+- generateSVG.test.js
 - shapes.test.js
