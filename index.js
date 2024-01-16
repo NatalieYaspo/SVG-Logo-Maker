@@ -46,8 +46,8 @@ const Questions = [
 
 // Function to write SVG file
 function writeToFile(data) { //May need to change DATA to something else?
-    fs.writeFile(`./newlogo.svg`, data, (err) =>
-    err ? console.log(err) : console.log('Your SVG has been created!')
+    fs.writeFile(`./logo.svg`, data, (err) =>
+    err ? console.log(err) : console.log('Your SVG has been generated!')
 );
 }
 
