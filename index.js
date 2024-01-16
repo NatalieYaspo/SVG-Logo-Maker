@@ -3,28 +3,12 @@ const inquirer = require('inquirer');
 const { Shapes, Circle, Square, Triangle } = require('./lib/shapes');
 const generateSVG = require('./lib/generateSVG');
 
-
-// checks to see if there are more than 3 characters entered
-// const logoCharsLength = async (input) => {
-//     if (input > 3) {
-//         throw Error('Only 3 characters allowed for logo.');
-//     }
-// }
-
 //Question prompts to generate logo
 const Questions = [
     {
         type: 'input',
         message: 'Please enter up to (3) characters for your logo:',
         name: 'logoChars',
-        // validate: logoCharsLength,
-        // validate: (logoChars) => {
-        //     if(logoChars.length > 3) {
-        //         throw new Error('Please only enter up to 3 characters');
-        //     } else {
-        //         return;
-        //     }
-        // }
     },
     {
       type: 'input',
@@ -45,7 +29,7 @@ const Questions = [
 ]
 
 // Function to write SVG file
-function writeToFile(data) { //May need to change DATA to something else?
+function writeToFile(data) {
     fs.writeFile(`./logo.svg`, data, (err) =>
     err ? console.log(err) : console.log('Your SVG has been generated!')
 );
@@ -60,5 +44,3 @@ function init() {
 
 // Function call to initialize app
 init();
-
-// --detectOpenHandles do I need to add that back to test: jest?
